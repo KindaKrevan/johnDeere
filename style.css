@@ -1,0 +1,20 @@
+:root {
+  --primary: #367c2b;
+  --secondary: #ffdc06;
+  --square: 125px;
+}
+
+.small-img {
+  height: var(--square);
+  width: var(--square);
+}
+.hero-img {
+  background-image: url(http://thiscatdoesnotexist.com);
+}
+
+.img-thing {
+  height: 25vh;
+}
+.text-thing {
+  height: 7vh;
+}
