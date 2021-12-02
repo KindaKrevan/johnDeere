@@ -4,12 +4,58 @@
   --square: 125px;
 }
 
+body {
+  background-color: grey;
+}
+
+.container {
+  background-color: white;
+}
+
 .small-img {
   height: var(--square);
   width: var(--square);
 }
+
 .hero-img {
-  background-image: url(http://thiscatdoesnotexist.com);
+  background-image: url("https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-size: cover;
+  background-position: 50% 75%;
+}
+.bg1 {
+  background-image: url("https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-size: cover;
+  background-position: center;
+}
+.bg2 {
+  background-image: url("https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+  background-size: cover;
+  background-position: 50% 100%;
+}
+.bg3 {
+  background-image: url("https://images.unsplash.com/photo-1579847188804-ecba0e2ea330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=748&q=80");
+  background-size: cover;
+  background-position: 50% 35%;
+}
+.bg4 {
+  background-image: url("https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-size: cover;
+  background-position: center;
+}
+.bg5 {
+  background-image: url("https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-size: cover;
+  background-position: 50% 35%;
+}
+.bg6 {
+  background-image: url("https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-size: cover;
+  background-position: 50% 35%;
+}
+.bg7 {
+  background-image: url("https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-size: cover;
+  background-position: center;
 }
 
 .img-thing {
@@ -17,4 +63,11 @@
 }
 .text-thing {
   height: 7vh;
+}
+
+.text-yellow {
+  color: var(--secondary);
+}
+.drop-shadow {
+  text-shadow: black;
 }
