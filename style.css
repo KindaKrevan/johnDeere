@@ -8,6 +8,10 @@ body {
   background-color: grey;
 }
 
+.text-deere {
+  color: var(--primary);
+}
+
 .container {
   background-color: white;
 }
